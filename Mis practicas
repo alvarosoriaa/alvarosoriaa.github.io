@@ -1,0 +1,14 @@
+<HTML>
+<HEAD>
+<title>Mis prácticas</title>
+</HEAD>
+<body>
+    <Center><H1><font color= "blue"><U>prácticas</U></font color= "blue"></Center></H1>
+<table>
+    <tr>
+        <td><img src="Sin título.jpeg"></td>
+        <td><a href="cvv.html">Mi currículum</a></td>
+    </tr>
+</table>
+</body>
+</HTML>
