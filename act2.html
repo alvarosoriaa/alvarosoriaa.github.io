@@ -3,12 +3,12 @@
 <title>Actividad NO evaluable formulario</title>
 </HEAD>
 <body>
-<table border="2">
-<tr>
+<table>
+ <tr>
     <td>Datos personales</td>
     <td>Idiomas</td>
-</tr>
-<tr>
+ </tr>
+ <tr>
     <td> 
      <form action=" http://ncoge.com/phps/formulario.php" method="post">
         Nombre:<input type="text"
@@ -19,10 +19,8 @@
         name= "correoUser">
         <br> Hobbies:</br>
         <textarea name="Hobbies"></textarea>
-     </form>
     </td>
     <td>
-     <br><form action=" http://ncoge.com/phps/formulario.php" method="post">
      <br>Puntua tu nivel de idiomas del 1 al 5:
      <br>Inglés: 
         <input type="radio" name="ingles" value="1" checked="checked"/>
@@ -58,8 +56,8 @@
         <input type="radio" name="aleman" value="5" checked="checked"/>
         5
      </td>
-</tr>
-<tr>
+ </tr>
+ <tr>
     <td>    
     </td>
     <td align="right">
@@ -74,13 +72,25 @@
         Impress
      </form> 
      </td>
-</tr>
-<tr>
+ </tr>
+ <tr>
     <td>
     </td>
     <td>
-        Trabajo con los siguientes programas operativos:
-        
+        <label for="so">Trabajo con los siguientes programas operativos:</label> <br/>
+        <select id="so" name="so">
+        <option value="" selected="selected">- Elige -</option>
+        <option value="windows">Windows</option>
+        <option value="mac">Mac</option>
+        <option value="linux">Linux</option>
+        <option value="otro">Otro</option>
+        </select>
     </td>
-</tr>
+ </tr>
+ <td align="center" colspan="2">
+    <input type="submit" value="ENVIAR" />
+ </td>
 </table>
+    </form>
+</body>
+</HTML>
